@@ -1,0 +1,31 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/root/.nvm/versions/node/v14.18.2/bin/node',
+1 verbose cli   '/root/.nvm/versions/node/v14.18.2/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--no-audit',
+1 verbose cli   '--save',
+1 verbose cli   '--save-exact',
+1 verbose cli   '--loglevel',
+1 verbose cli   'error',
+1 verbose cli   'react',
+1 verbose cli   'react-dom',
+1 verbose cli   'react-scripts',
+1 verbose cli   'cra-template'
+1 verbose cli ]
+2 info using npm@6.14.15
+3 info using node@v14.18.2
+4 verbose npm-session 46f7eee35ec4f18d
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 http fetch GET 200 https://registry.npmjs.org/cra-template 47ms (from cache)
+8 silly pacote tag manifest for cra-template@latest fetched in 55ms
+9 http fetch GET 200 https://registry.npmjs.org/react 63ms (from cache)
+10 silly pacote tag manifest for react@latest fetched in 82ms
+11 http fetch GET 304 https://registry.npmjs.org/react-scripts 715ms (from cache)
+12 silly pacote tag manifest for react-scripts@latest fetched in 722ms
+13 http fetch GET 200 https://registry.npmjs.org/react-dom 1758ms
+14 timing npm Completed in 2920ms
+15 error cb() never called!
+16 error This is an error with npm itself. Please report this error at:
+17 error <https://npm.community>

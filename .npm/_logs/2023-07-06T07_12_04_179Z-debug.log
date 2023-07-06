@@ -1,0 +1,193 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/root/.nvm/versions/node/v14.18.2/bin/node',
+1 verbose cli   '/root/.nvm/versions/node/v14.18.2/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--no-audit',
+1 verbose cli   '--save',
+1 verbose cli   '--save-exact',
+1 verbose cli   '--loglevel',
+1 verbose cli   'error',
+1 verbose cli   'react',
+1 verbose cli   'react-dom',
+1 verbose cli   'react-scripts',
+1 verbose cli   'cra-template'
+1 verbose cli ]
+2 info using npm@6.14.15
+3 info using node@v14.18.2
+4 verbose npm-session 05e0e1eddb4e598d
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 http fetch GET 200 https://registry.npmjs.org/cra-template 44ms (from cache)
+8 http fetch GET 200 https://registry.npmjs.org/react-scripts 50ms (from cache)
+9 silly pacote tag manifest for cra-template@latest fetched in 55ms
+10 silly pacote tag manifest for react-scripts@latest fetched in 58ms
+11 http fetch GET 200 https://registry.npmjs.org/react-dom 62ms (from cache)
+12 silly pacote tag manifest for react-dom@latest fetched in 78ms
+13 http fetch GET 304 https://registry.npmjs.org/react 461ms (from cache)
+14 silly pacote tag manifest for react@latest fetched in 482ms
+15 timing stage:loadCurrentTree Completed in 513ms
+16 silly install loadIdealTree
+17 silly install cloneCurrentTreeToIdealTree
+18 timing stage:loadIdealTree:cloneCurrentTree Completed in 1ms
+19 silly install loadShrinkwrap
+20 timing stage:loadIdealTree:loadShrinkwrap Completed in 0ms
+21 silly install loadAllDepsIntoIdealTree
+22 silly resolveWithNewModule cra-template@1.2.0 checking installable status
+23 silly resolveWithNewModule react-scripts@5.0.1 checking installable status
+24 silly resolveWithNewModule react-dom@18.2.0 checking installable status
+25 silly resolveWithNewModule react@18.2.0 checking installable status
+26 http fetch GET 200 https://registry.npmjs.org/loose-envify 5ms (from cache)
+27 silly pacote range manifest for loose-envify@^1.1.0 fetched in 7ms
+28 silly resolveWithNewModule loose-envify@1.4.0 checking installable status
+29 http fetch GET 200 https://registry.npmjs.org/js-tokens 4ms (from cache)
+30 silly pacote range manifest for js-tokens@^3.0.0 || ^4.0.0 fetched in 6ms
+31 silly resolveWithNewModule js-tokens@4.0.0 checking installable status
+32 http fetch GET 304 https://registry.npmjs.org/scheduler 232ms (from cache)
+33 silly pacote range manifest for scheduler@^0.23.0 fetched in 247ms
+34 silly resolveWithNewModule scheduler@0.23.0 checking installable status
+35 http fetch GET 200 https://registry.npmjs.org/@babel%2fcore 37ms (from cache)
+36 http fetch GET 200 https://registry.npmjs.org/@pmmmwh%2freact-refresh-webpack-plugin 38ms (from cache)
+37 http fetch GET 200 https://registry.npmjs.org/babel-jest 40ms (from cache)
+38 http fetch GET 200 https://registry.npmjs.org/babel-plugin-named-asset-import 41ms (from cache)
+39 http fetch GET 200 https://registry.npmjs.org/babel-preset-react-app 48ms (from cache)
+40 http fetch GET 200 https://registry.npmjs.org/browserslist 48ms (from cache)
+41 http fetch GET 200 https://registry.npmjs.org/camelcase 50ms (from cache)
+42 silly pacote range manifest for @pmmmwh/react-refresh-webpack-plugin@^0.5.3 fetched in 59ms
+43 silly resolveWithNewModule @pmmmwh/react-refresh-webpack-plugin@0.5.10 checking installable status
+44 silly pacote range manifest for @babel/core@^7.16.0 fetched in 61ms
+45 silly resolveWithNewModule @babel/core@7.22.6 checking installable status
+46 silly pacote range manifest for babel-jest@^27.4.2 fetched in 58ms
+47 silly resolveWithNewModule babel-jest@27.5.1 checking installable status
+48 silly pacote range manifest for babel-plugin-named-asset-import@^0.3.8 fetched in 58ms
+49 silly resolveWithNewModule babel-plugin-named-asset-import@0.3.8 checking installable status
+50 silly pacote range manifest for browserslist@^4.18.1 fetched in 64ms
+51 silly resolveWithNewModule browserslist@4.21.9 checking installable status
+52 silly pacote range manifest for babel-preset-react-app@^10.0.1 fetched in 66ms
+53 silly resolveWithNewModule babel-preset-react-app@10.0.1 checking installable status
+54 silly pacote range manifest for camelcase@^6.2.1 fetched in 66ms
+55 silly resolveWithNewModule camelcase@6.3.0 checking installable status
+56 http fetch GET 200 https://registry.npmjs.org/case-sensitive-paths-webpack-plugin 29ms (from cache)
+57 http fetch GET 200 https://registry.npmjs.org/css-loader 24ms (from cache)
+58 http fetch GET 200 https://registry.npmjs.org/css-minimizer-webpack-plugin 27ms (from cache)
+59 http fetch GET 200 https://registry.npmjs.org/dotenv 29ms (from cache)
+60 http fetch GET 200 https://registry.npmjs.org/dotenv-expand 24ms (from cache)
+61 http fetch GET 200 https://registry.npmjs.org/eslint-config-react-app 27ms (from cache)
+62 silly pacote range manifest for case-sensitive-paths-webpack-plugin@^2.4.0 fetched in 45ms
+63 silly resolveWithNewModule case-sensitive-paths-webpack-plugin@2.4.0 checking installable status
+64 silly pacote range manifest for css-loader@^6.5.1 fetched in 40ms
+65 silly resolveWithNewModule css-loader@6.8.1 checking installable status
+66 silly pacote range manifest for css-minimizer-webpack-plugin@^3.2.0 fetched in 40ms
+67 silly resolveWithNewModule css-minimizer-webpack-plugin@3.4.1 checking installable status
+68 silly pacote range manifest for dotenv@^10.0.0 fetched in 42ms
+69 silly resolveWithNewModule dotenv@10.0.0 checking installable status
+70 silly pacote range manifest for dotenv-expand@^5.1.0 fetched in 37ms
+71 silly resolveWithNewModule dotenv-expand@5.1.0 checking installable status
+72 silly pacote range manifest for eslint-config-react-app@^7.0.1 fetched in 38ms
+73 silly resolveWithNewModule eslint-config-react-app@7.0.1 checking installable status
+74 http fetch GET 200 https://registry.npmjs.org/eslint-webpack-plugin 24ms (from cache)
+75 http fetch GET 200 https://registry.npmjs.org/fs-extra 27ms (from cache)
+76 http fetch GET 200 https://registry.npmjs.org/jest 32ms (from cache)
+77 silly pacote range manifest for eslint-webpack-plugin@^3.1.1 fetched in 48ms
+78 silly resolveWithNewModule eslint-webpack-plugin@3.2.0 checking installable status
+79 silly pacote range manifest for fs-extra@^10.0.0 fetched in 48ms
+80 silly resolveWithNewModule fs-extra@10.1.0 checking installable status
+81 silly pacote range manifest for jest@^27.4.3 fetched in 48ms
+82 silly resolveWithNewModule jest@27.5.1 checking installable status
+83 http fetch GET 200 https://registry.npmjs.org/jest-watch-typeahead 27ms (from cache)
+84 http fetch GET 200 https://registry.npmjs.org/mini-css-extract-plugin 25ms (from cache)
+85 silly pacote range manifest for jest-watch-typeahead@^1.0.0 fetched in 37ms
+86 silly resolveWithNewModule jest-watch-typeahead@1.1.0 checking installable status
+87 silly pacote range manifest for mini-css-extract-plugin@^2.4.5 fetched in 35ms
+88 silly resolveWithNewModule mini-css-extract-plugin@2.7.6 checking installable status
+89 http fetch GET 200 https://registry.npmjs.org/postcss 11ms (from cache)
+90 http fetch GET 200 https://registry.npmjs.org/postcss-flexbugs-fixes 11ms (from cache)
+91 silly pacote range manifest for postcss@^8.4.4 fetched in 16ms
+92 silly resolveWithNewModule postcss@8.4.24 checking installable status
+93 silly pacote range manifest for postcss-flexbugs-fixes@^5.0.2 fetched in 14ms
+94 silly resolveWithNewModule postcss-flexbugs-fixes@5.0.2 checking installable status
+95 http fetch GET 200 https://registry.npmjs.org/postcss-loader 6ms (from cache)
+96 http fetch GET 304 https://registry.npmjs.org/@svgr%2fwebpack 217ms (from cache)
+97 silly pacote range manifest for postcss-loader@^6.2.1 fetched in 13ms
+98 silly resolveWithNewModule postcss-loader@6.2.1 checking installable status
+99 silly pacote range manifest for @svgr/webpack@^5.5.0 fetched in 221ms
+100 silly resolveWithNewModule @svgr/webpack@5.5.0 checking installable status
+101 http fetch GET 200 https://registry.npmjs.org/prompts 7ms (from cache)
+102 silly pacote range manifest for prompts@^2.4.2 fetched in 9ms
+103 silly resolveWithNewModule prompts@2.4.2 checking installable status
+104 http fetch GET 200 https://registry.npmjs.org/react-app-polyfill 2ms (from cache)
+105 silly pacote range manifest for react-app-polyfill@^3.0.0 fetched in 6ms
+106 silly resolveWithNewModule react-app-polyfill@3.0.0 checking installable status
+107 http fetch GET 304 https://registry.npmjs.org/babel-loader 323ms (from cache)
+108 silly pacote range manifest for babel-loader@^8.2.3 fetched in 327ms
+109 silly resolveWithNewModule babel-loader@8.3.0 checking installable status
+110 http fetch GET 200 https://registry.npmjs.org/react-refresh 13ms (from cache)
+111 http fetch GET 304 https://registry.npmjs.org/postcss-normalize 151ms (from cache)
+112 silly pacote range manifest for react-refresh@^0.11.0 fetched in 35ms
+113 silly resolveWithNewModule react-refresh@0.11.0 checking installable status
+114 silly pacote range manifest for postcss-normalize@^10.0.1 fetched in 159ms
+115 silly resolveWithNewModule postcss-normalize@10.0.1 checking installable status
+116 http fetch GET 200 https://registry.npmjs.org/resolve 27ms (from cache)
+117 http fetch GET 200 https://registry.npmjs.org/resolve-url-loader 19ms (from cache)
+118 silly pacote range manifest for resolve@^1.20.0 fetched in 32ms
+119 silly resolveWithNewModule resolve@1.22.2 checking installable status
+120 silly pacote range manifest for resolve-url-loader@^4.0.0 fetched in 27ms
+121 silly resolveWithNewModule resolve-url-loader@4.0.0 checking installable status
+122 http fetch GET 200 https://registry.npmjs.org/semver 7ms (from cache)
+123 silly pacote range manifest for semver@^7.3.5 fetched in 10ms
+124 silly resolveWithNewModule semver@7.5.3 checking installable status
+125 http fetch GET 304 https://registry.npmjs.org/bfj 414ms (from cache)
+126 http fetch GET 304 https://registry.npmjs.org/identity-obj-proxy 309ms (from cache)
+127 silly pacote range manifest for bfj@^7.0.2 fetched in 420ms
+128 silly resolveWithNewModule bfj@7.0.2 checking installable status
+129 silly pacote range manifest for identity-obj-proxy@^3.0.0 fetched in 316ms
+130 silly resolveWithNewModule identity-obj-proxy@3.0.0 checking installable status
+131 http fetch GET 200 https://registry.npmjs.org/source-map-loader 13ms (from cache)
+132 silly pacote range manifest for source-map-loader@^3.0.0 fetched in 20ms
+133 silly resolveWithNewModule source-map-loader@3.0.2 checking installable status
+134 http fetch GET 200 https://registry.npmjs.org/terser-webpack-plugin 8ms (from cache)
+135 silly pacote range manifest for terser-webpack-plugin@^5.2.5 fetched in 20ms
+136 silly resolveWithNewModule terser-webpack-plugin@5.3.9 checking installable status
+137 http fetch GET 200 https://registry.npmjs.org/webpack 11ms (from cache)
+138 silly pacote range manifest for webpack@^5.64.4 fetched in 35ms
+139 silly resolveWithNewModule webpack@5.88.1 checking installable status
+140 http fetch GET 200 https://registry.npmjs.org/webpack-dev-server 15ms (from cache)
+141 silly pacote range manifest for webpack-dev-server@^4.6.0 fetched in 45ms
+142 silly resolveWithNewModule webpack-dev-server@4.15.1 checking installable status
+143 http fetch GET 200 https://registry.npmjs.org/webpack-manifest-plugin 22ms (from cache)
+144 http fetch GET 304 https://registry.npmjs.org/file-loader 468ms (from cache)
+145 silly pacote range manifest for webpack-manifest-plugin@^4.0.2 fetched in 37ms
+146 silly resolveWithNewModule webpack-manifest-plugin@4.1.1 checking installable status
+147 http fetch GET 304 https://registry.npmjs.org/jest-resolve 430ms (from cache)
+148 silly pacote range manifest for file-loader@^6.2.0 fetched in 483ms
+149 silly resolveWithNewModule file-loader@6.2.0 checking installable status
+150 silly pacote range manifest for jest-resolve@^27.4.2 fetched in 448ms
+151 silly resolveWithNewModule jest-resolve@27.5.1 checking installable status
+152 http fetch GET 200 https://registry.npmjs.org/workbox-webpack-plugin 32ms (from cache)
+153 http fetch GET 304 https://registry.npmjs.org/style-loader 199ms (from cache)
+154 http fetch GET 304 https://registry.npmjs.org/sass-loader 221ms (from cache)
+155 silly pacote range manifest for workbox-webpack-plugin@^6.4.1 fetched in 52ms
+156 silly resolveWithNewModule workbox-webpack-plugin@6.6.0 checking installable status
+157 silly pacote range manifest for style-loader@^3.3.1 fetched in 215ms
+158 silly resolveWithNewModule style-loader@3.3.3 checking installable status
+159 silly pacote range manifest for sass-loader@^12.3.0 fetched in 239ms
+160 silly resolveWithNewModule sass-loader@12.6.0 checking installable status
+161 http fetch GET 304 https://registry.npmjs.org/postcss-preset-env 423ms (from cache)
+162 silly pacote range manifest for postcss-preset-env@^7.0.1 fetched in 431ms
+163 silly resolveWithNewModule postcss-preset-env@7.8.3 checking installable status
+164 http fetch GET 304 https://registry.npmjs.org/fsevents 216ms (from cache)
+165 silly pacote range manifest for fsevents@^2.3.2 fetched in 219ms
+166 silly resolveWithNewModule fsevents@2.3.2 checking installable status
+167 http fetch GET 200 https://registry.npmjs.org/eslint 810ms
+168 http fetch GET 200 https://registry.npmjs.org/html-webpack-plugin 775ms
+169 http fetch GET 200 https://registry.npmjs.org/html-webpack-plugin/-/html-webpack-plugin-5.5.3.tgz 182ms
+170 silly pacote range manifest for html-webpack-plugin@^5.5.0 fetched in 990ms
+171 silly resolveWithNewModule html-webpack-plugin@5.5.3 checking installable status
+172 http fetch GET 200 https://registry.npmjs.org/react-dev-utils 1221ms
+173 http fetch GET 200 https://registry.npmjs.org/react-dev-utils/-/react-dev-utils-12.0.1.tgz 174ms
+174 silly pacote range manifest for react-dev-utils@^12.0.1 fetched in 1408ms
+175 silly resolveWithNewModule react-dev-utils@12.0.1 checking installable status
+176 timing npm Completed in 2660ms
+177 error cb() never called!
+178 error This is an error with npm itself. Please report this error at:
+179 error <https://npm.community>
